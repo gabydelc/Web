@@ -1,0 +1,354 @@
+* {outline: none !important;}
+
+::selection {
+	background-color: #475B6F;
+	color: #fff;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	overflow-y: scroll;
+}
+
+body {
+	color: #6a6a6a;	
+	background: #f1f0f0;
+}
+
+p {margin: 0 0 20px 0;	}
+
+img {max-width: 100%;}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a{	
+	color: #6a6a6a;
+	-o-transition: all .4s;
+	-ms-transition: all .4s;
+	-moz-transition: all .4s;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+
+a:hover {
+	color: #e31108;	
+}
+
+
+h1, h2, h3, h4, h5, h6{		
+	margin: 0 0 15px 0;	
+	color: #3A4F52;
+	font-family: 'Alegreya Sans';
+}
+
+.btn{border-radius: 0;}
+.btn-o {
+    border: 1px solid #3A4F52;
+    color: #3A4F52;
+}
+.btn-o:hover {
+    background: #e31108;
+    color: white;
+}
+.btn.btn-o-white {
+    border: 1px solid #3A4F52;
+    color: #3A4F52;
+    background: transparent;
+}
+.btn.btn-o-white:hover {
+    background: #e31108;
+    color: white;
+}
+
+
+#header{	
+	position: relative;			
+	text-align: center;
+	padding: 0 !important;
+}
+
+
+#header .top {
+	position:fixed;
+	top:0;
+	width: 100%;
+	padding: 30px;
+	height: auto;
+	z-index: 500;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;	
+	transition: all .5s;		
+}
+#header .top.solid {
+    background: #e31108;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#header .top h1{
+	margin-bottom: 0;
+}
+#header .top.solid .toggleDrawer i {
+    padding-top: 8px;
+}
+
+#header .logo, #header .toggleDrawer{
+	font-family: 'Nixie One';
+	color: white;
+}
+
+#header .slogan{
+	font-size: 4em;
+	margin-bottom: 15px;
+	line-height: 1em;
+	font-family: 'Nixie One';
+	color: #3A4F52;
+}
+
+#header .secondary-slogan{
+	font-size: 1.6em;
+	color: #3A4F52;
+	line-height: 1em;
+	font-family: 'Alegreya SC';
+}
+
+#header > .bottom {
+    position: absolute;
+    bottom: 75px;
+    text-align: center;
+    width: 100%;
+}
+#header > .bottom a img {
+    width: 50px;
+}
+#header > .bottom a {
+    opacity: 0.7;
+}
+#header > .bottom a:hover {
+    opacity: 1;
+}
+
+
+#drawer-right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-right: -300px;
+    background: #e31108;
+    width: 300px;
+    padding: 20px;
+    z-index: 999;
+}
+
+#drawer-right h1 {color: #3A4F52;}, #drawer-right h2{color: #3A4F52;}
+
+#drawer-right .nav-pills>li>a {
+	font-size: 18px;
+	border-radius: 0;
+}
+
+#drawer-right .social{margin-top: 30px}
+#drawer-right .social ul {
+    list-style: none;
+    padding-left: 20px;
+}
+#drawer-right .social ul > li {
+    display: inline-block;
+}
+#drawer-right .social ul > li > a:hover{
+	color: white;
+}
+
+
+.content-block{
+	background:transparent no-repeat center center fixed;
+	-webkit-background-size:100%;
+	-moz-background-size:100%;
+	-o-background-size:100%;
+	background-size:100%;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	overflow:hidden;
+	padding: 60px 0;
+}
+.parallax{
+	padding: 80px 0;
+}
+
+.block-body {
+	margin-top: 60px;
+}
+
+#header {
+	background-image: url(../images/bgpilones.jpg);
+}
+#ourflavors {
+	background-image: url(../images/tongue.jpg);
+}
+#gallery {
+	background-image: url(../images/melting.jpg);
+}
+#shop {
+	background-image: url(../images/cart.jpg);
+	color: #6a6a6a;
+}
+#parallax {
+	background-image: url(../images/blue_mac2.jpg);
+	color: white;
+}
+#contact {
+	background-image: url(../images/newsletter-bg.jpg);
+	color: white;
+}
+#parallax h1{
+	margin-bottom: 60px;
+	color: white;
+}
+
+
+.recent-work {
+    width: 100%;
+    padding-bottom: 27%;
+    background: #C3C9CC;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 27%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.recent-work span{
+	margin-top: -18px;
+	opacity: 0;
+	position: relative;
+	z-index: 1;
+}
+.recent-work:before {
+    background: rgba(2, 56, 58, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    opacity: 0;
+    -o-transition: all .2s;
+	-ms-transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+.recent-work:hover {
+    background-size: 200%;
+    background-position: center;
+}
+.recent-work:hover:before, .recent-work:hover span {
+    opacity: 1;
+}
+
+
+#ourflavors h1, #ourflavors h2{
+	color: #3A4F52;
+}
+.ourflavors i {
+    font-size: 60px;
+}
+.ourflavors {
+    padding: 0 25px;
+}
+
+
+
+#shop .blog-post img {
+    margin-bottom: 20px;
+}
+#shop .date {
+    margin-bottom: 15px;
+    
+}
+
+
+#contact{
+	color: #3A4F52;
+
+}
+#contact h1{color: #3A4F52}
+
+.form-control-white {
+    background: transparent;
+    color: #3A4F52;
+}
+
+.form-control-white::-webkit-input-placeholder { 
+    color:    #3A4F52;
+}
+.form-control-white:-moz-placeholder { 
+    color:    #3A4F52;
+    opacity:  1;
+}
+.form-control-white::-moz-placeholder { 
+    color:    #3A4F52;
+    opacity:  1;
+}
+.form-control-white:-ms-input-placeholder { 
+    color:    #3A4F52;
+}
+
+@media (max-width: 767px){
+	.blog-post {
+		margin-bottom: 40px;
+	}
+
+	.recent-work {
+		background-position: center;
+	}
+
+	.recent-work:before {
+		opacity: 1;
+	}
+
+	.recent-work span {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 480px) {
+	#drawer-right {
+		padding: 10px 20px;
+	}
+
+	#drawer-right .nav-pills>li>a {
+		font-size: 17px;
+	}
+
+	.nav-stacked>li+li {
+		margin-top: 0;
+	}
+
+	.nav>li>a {
+		padding: 8px 15px;
+	}
+
+	#drawer-right .social {
+		margin-top: 5px;
+	}
+
+	#header {
+		background-size: cover;
+	}
+}

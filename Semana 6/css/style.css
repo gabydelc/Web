@@ -16,12 +16,12 @@ letter-spacing: 1px;
 }
 
 h1 {
-	font-size: 40px; 
-	color: #fff; 
-	font-weight: normal; 
-	font-family: Rockwell; 
-	text-align: center;
-	margin: 0 auto 0 auto;
+    font-size: 40px; 
+    color: #fff; 
+    font-weight: normal; 
+    font-family: Rockwell; 
+    text-align: center;
+    margin: 0 auto 0 auto;
     margin-top: 2em;
     z-index: 1000;
     display: inline-block;
@@ -30,17 +30,19 @@ h1 {
 }
 
 nav {
-	display: block;
+    display: block;
+    margin-top: 10em;
 }
 
 div {
-	display: inline-block;
-	text-align: left;
+    display: inline-block;
+    text-align: left;
+
 }
 
 footer {
-	margin-top: 300px;
-	opacity: 25;
+    margin-top: 10em;
+    opacity: 25;
 }
 
 #social a {
@@ -67,4 +69,3 @@ ul, menu, dir {
     list-style: none;
 }
 
- 
