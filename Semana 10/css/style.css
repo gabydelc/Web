@@ -61,7 +61,7 @@ a:focus{
 	text-decoration: none;
 }
 #home{
-	background: url(../img/wood.jpg);
+	background: url(../img/woodhome.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -71,25 +71,33 @@ a:focus{
 	padding-top: 60px;
 	color: #ffffff;
 }
+
+#meet-us{
+	background: url(../img/wood.jpg);
+}
+
+#services{
+	background: url(../img/wood.jpg);
+}
+
+#works{
+	background: url(../img/wood.jpg);
+}
+
 #home a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
 	border: 1px solid #c59a6d;
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 400px;
 	color: #ffffff;
 	cursor: pointer;
 }
 .content{
 	padding-top: 16%;
 }
-.header-text.btn{
-	border: 1px solid #ffffff;
-	border-radius: 0;
-	padding: 10px 30px;
-	height: 100px;
-}
+
 .header-text.btn:hover{
 	color: inherit;
 }
@@ -131,18 +139,7 @@ span.typed-cursor {
 	top: -5px;
 	position: relative;
 }
-/*.header-text{
-	margin-top: 20px;	
-	position: absolute;
-	border: 1px solid #ffffff;
-	left: 25%;
-	right: 25%;
-}
-.header-text h1{
-	padding: 20px;
-	position: relative;
-	margin: 0 auto;
-}*/
+
 nav#menu span.fa.fa-bars{
 	font-size: 30px;
 	position: fixed;
